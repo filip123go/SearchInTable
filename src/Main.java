@@ -18,7 +18,7 @@ public class Main {
 			int sumToCompare = low + hi;
 			System.out.println("NEW sumToCompare = " + sumToCompare);
 			if (sumToCompare == sum) {
-				System.out.println("found the result " +hi +" , "+low );
+				System.out.println("found the result " + hi + " , " + low);
 				break;
 			} else if (sumToCompare > sum) {
 				hi = tableIfInts[tableIfInts.length - i];
